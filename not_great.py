@@ -19,10 +19,10 @@ def height_converter(x):
     else:
         split_x=x.split('ft'); height_in_inches_converted_from_string=int(split_x[0])*12
         if len(split_x)==2:
-            if split_x[1]=='':
+            if split_x[1] == '':
                 pass
             else:
-                height_in_inches_converted_from_string=height_in_inches_converted_from_string+int(split_x[1].split('in')[0])
+                height_in_inches_converted_from_string = height_in_inches_converted_from_string + int(split_x[1].split('in')[0])
 
 
 
